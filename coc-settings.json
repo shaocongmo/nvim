@@ -1,0 +1,22 @@
+{
+    "languageserver": {
+        "golang": {
+            "command": "gopls",
+            "rootPatterns": [
+                "go.mod"
+            ],
+            "filetypes": [
+                "go"
+            ]
+        },
+		"erlang": {
+			"command": "erlang_ls",
+			"filetypes": ["erlang"]
+		}
+    },
+    "suggest.noselect": false,
+    "coc.preferences.diagnostic.displayByAle": true,
+    "suggest.floatEnable": true,
+	"python.pythonPath": "/usr/bin/python3"
+}
+
